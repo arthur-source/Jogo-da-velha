@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bungee+Spice&family=Dancing+Script:wght@525&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: darkslategrey;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+h1{
+    margin: 2rem 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.area{
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
+    border-right:5px solid #ccc;
+    border-bottom:5px solid #515151;            
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px 5px #000;
+    background-color: rgb(63, 119, 119);
+}
+
+.area:hover{
+    cursor: pointer;
+    background-color: rgb(74, 169, 169);
+              
+}
+
+.area:active{
+    border-right:none;
+    border-bottom:none;
+    border-left:5px solid #ccc;
+    border-top:5px solid #ccc;
+}
+
+.status{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    
+}
+
+#reiniciar{
+    padding: 1rem;
+    border-radius: 8px;
+    background-color:#000;
+    color: #fff;
+    text-transform: uppercase;
+}

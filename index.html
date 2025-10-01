@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Jogo da Velha<hr></h1>
+    <section class="content">
+        <div class="area" onclick="clicar(0)" id="0"></div>
+        <div class="area" onclick="clicar(1)" id="1"></div>
+        <div class="area" onclick="clicar(2)" id="2"></div>
+        <div class="area" onclick="clicar(3)" id="3"></div>
+        <div class="area" onclick="clicar(4)" id="4"></div>
+        <div class="area" onclick="clicar(5)" id="5"></div>
+        <div class="area" onclick="clicar(6)" id="6"></div>
+        <div class="area" onclick="clicar(7)" id="7"></div>
+        <div class="area" onclick="clicar(8)" id="8"></div>
+    </section>
+    <p class="status" id="vencedor">Quem joga agora é o "X"</p>
+    <button id='reiniciar' onclick='reiniciar()'>Reiniciar</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
