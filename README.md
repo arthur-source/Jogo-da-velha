@@ -1,2 +1,3 @@
 # Jogo-da-velha
-Jogo da velha desenvolvido com HTML, CSS e JavaScript
+Jogo da velha simples desenvolvido com HTML, CSS e JavaScript.
+https://arthur-source.github.io/Jogo-da-velha/
