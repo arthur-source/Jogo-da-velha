@@ -79,7 +79,7 @@ h1{
 
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 390px) {
 .container{
     display: flex;
     flex-direction: column;
@@ -103,3 +103,4 @@ h1{
 }
 
 }
+
