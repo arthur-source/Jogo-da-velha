@@ -106,7 +106,32 @@ h1{
 
 }
 
-@media screen and(max-width:399px) {
+@media screen and(max-width:260px) {
+
+    .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+}
+
+    .area{
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:10px;
+    height: 10px;
+    border-right:5px solid #ccc;
+    border-bottom:5px solid #515151;            
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px 5px #000;
+    background-color: rgb(63, 119, 119);
+}
+} 
+
+/* @media screen and(max-width:399px) {
     .area{
     font-size: 5rem;
     display: flex;
@@ -124,19 +149,27 @@ h1{
 
 
 
-@media screen and(max-width:259px) {
+@media screen and(max-width:260px) {
+
+    .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+}
+
     .area{
     font-size: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 0.5rem;
-    height: 0.5rem;
+    width:10px;
+    height: 10px;
     border-right:5px solid #ccc;
     border-bottom:5px solid #515151;            
     border-radius: 8px;
     box-shadow: 3px 5px 5px 5px #000;
     background-color: rgb(63, 119, 119);
 }
-}
-
+} */
