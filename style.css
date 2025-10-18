@@ -76,4 +76,30 @@ h1{
     background-color:#000;
     color: #fff;
     text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 300px) {
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+}
+
+.area{
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border-right:5px solid #ccc;
+    border-bottom:5px solid #515151;            
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px 5px #000;
+    background-color: rgb(63, 119, 119);
+}
+
 }
