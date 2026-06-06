@@ -51,9 +51,9 @@ function verificarVencedor() {
       const [a, b, c] = combinacao;
       if (jogo[a] && jogo[a] === jogo[b] && jogo[a] === jogo[c]) {
           // Vencedor encontrado!
-          area[a].style.backgroundColor = 'rgb(73, 162, 73)';
-          area[b].style.backgroundColor = 'rgb(73, 162, 73)';
-          area[c].style.backgroundColor = 'rgb(73, 162, 73)';
+          area[a].style.backgroundColor = 'green';
+          area[b].style.backgroundColor = 'green';
+          area[c].style.backgroundColor = 'green';
 
           jogoAtivo = false;
           return true;
