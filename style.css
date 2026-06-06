@@ -81,6 +81,7 @@ h1{
     background-color:#000;
     color: #fff;
     text-transform: uppercase;
+    cursor:pointer;
 }
 
 @media screen and (max-width: 400px) {
@@ -97,8 +98,8 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-right:5px solid #ccc;
     border-bottom:5px solid #515151;            
     border-radius: 8px;
